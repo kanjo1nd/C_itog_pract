@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" modified="2024-08-31T14:00:50.198Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Ockri28RSnsYFjV1IxSg" version="24.6.4" type="device">
+  <diagram name="Страница — 1" id="5gu_JaDFTAlmxP41ny8k">
+    <mxGraphModel dx="1674" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NI6damS_vN1xWfNwW4Py-5" value="Obstacle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="280" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NI6damS_vN1xWfNwW4Py-5">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-8" value="+ ~Obstacle(): virtual&lt;div&gt;+ overcome(): virtual&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NI6damS_vN1xWfNwW4Py-5">
+          <mxGeometry y="70" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-9" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="NI6damS_vN1xWfNwW4Py-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="520" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-10" value="RunningTrack" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="50" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-11" value="- length: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NI6damS_vN1xWfNwW4Py-10">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NI6damS_vN1xWfNwW4Py-10">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-13" value="+ RunningTrack(int len):&lt;div&gt;+ overcome():&lt;/div&gt;&lt;div&gt;+ getLength(): int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NI6damS_vN1xWfNwW4Py-10">
+          <mxGeometry y="60" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-14" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="NI6damS_vN1xWfNwW4Py-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="110" y="330" as="sourcePoint" />
+            <mxPoint x="320" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-15" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="50" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-16" value="- heigth: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NI6damS_vN1xWfNwW4Py-15">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NI6damS_vN1xWfNwW4Py-15">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-18" value="+ Wall(int h):&lt;div&gt;+ overcome():&lt;/div&gt;&lt;div&gt;+ getHeight(): int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NI6damS_vN1xWfNwW4Py-15">
+          <mxGeometry y="60" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-19" value="Participant" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="870" width="160" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-20" value="# name: string&lt;div&gt;# maxRun: int&lt;/div&gt;&lt;div&gt;# maxJump: int&lt;/div&gt;&lt;div&gt;# active: bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NI6damS_vN1xWfNwW4Py-19">
+          <mxGeometry y="26" width="160" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NI6damS_vN1xWfNwW4Py-19">
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-22" value="+ Participant(string n, int runDist, int jumpHeight):&amp;nbsp;&lt;div&gt;+ run(): virtual&lt;/div&gt;&lt;div&gt;+ jump(): virtual&lt;/div&gt;&lt;div&gt;+ isActive(): bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NI6damS_vN1xWfNwW4Py-19">
+          <mxGeometry y="108" width="160" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-23" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="NI6damS_vN1xWfNwW4Py-19">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="110" y="1130" as="sourcePoint" />
+            <mxPoint x="580" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-24" value="Robot" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="650" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NI6damS_vN1xWfNwW4Py-24">
+          <mxGeometry y="26" width="160" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-27" value="+ Robot(string n, int runDist, int jumpHeight):&amp;nbsp;&lt;div&gt;+ overcomeObstacle(const Obstacle&amp;amp; obstacle):&lt;/div&gt;&lt;div&gt;+ run():&lt;/div&gt;&lt;div&gt;+ jump():&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NI6damS_vN1xWfNwW4Py-24">
+          <mxGeometry y="50" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-28" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="NI6damS_vN1xWfNwW4Py-19">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="110" y="830" as="sourcePoint" />
+            <mxPoint x="470" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-29" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.675;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NI6damS_vN1xWfNwW4Py-19" target="NI6damS_vN1xWfNwW4Py-37">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="110" y="830" as="sourcePoint" />
+            <mxPoint x="290" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-30" value="Cat" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="650" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NI6damS_vN1xWfNwW4Py-30">
+          <mxGeometry y="26" width="160" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-33" value="+ Cat(string n, int runDist, int jumpHeight):&amp;nbsp;&lt;div&gt;+ overcomeObstacle(const Obstacle&amp;amp; obstacle):&lt;/div&gt;&lt;div&gt;+ run():&lt;/div&gt;&lt;div&gt;+ jump():&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NI6damS_vN1xWfNwW4Py-30">
+          <mxGeometry y="50" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-34" value="Human" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="650" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NI6damS_vN1xWfNwW4Py-34">
+          <mxGeometry y="26" width="160" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="NI6damS_vN1xWfNwW4Py-37" value="+ Human(string n, int runDist, int jumpHeight):&amp;nbsp;&lt;div&gt;+ overcomeObstacle(const Obstacle&amp;amp; obstacle):&lt;/div&gt;&lt;div&gt;+ run():&lt;/div&gt;&lt;div&gt;+ jump():&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NI6damS_vN1xWfNwW4Py-34">
+          <mxGeometry y="50" width="160" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
